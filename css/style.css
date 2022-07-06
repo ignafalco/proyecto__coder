@@ -72,6 +72,7 @@ nav li:hover {
     color: rgb(255, 81, 0);
 }
 
+
 /* Fin Index */
 
 /* Inicio trabajos */
@@ -144,7 +145,23 @@ main {
 /* Termina blog*/
 
 
+/* Inicia contacto*/
 
+
+.img__contacto {
+    margin-left: 120px;
+}
+
+.div__contacto {
+  margin-left: 450px;
+}
+
+.div__contacto p {
+    width: 80%;
+    padding-left: 30px;
+    line-height: 3;
+}
+/* Termina contacto */
 
 
 /* Inicio footer */
@@ -177,7 +194,20 @@ footer a:hover {
 
 @media (max-width: 991.98px) {
 
-    main {
+
+/* inicio index */
+
+.header__index {
+    height: 1600px;
+    }
+
+
+/* fin index */
+
+
+/* inicio sobre mi */
+
+    #main {
         margin-bottom: 0;
     }
 
@@ -214,7 +244,7 @@ footer a:hover {
     }
 }
 
-
+/* fin sobre mi */
 
 
 
@@ -223,6 +253,15 @@ footer a:hover {
 
 
     /* INICIO INDEX RESPONSIVE */
+
+    .header__index {
+        height: 1200px;
+        }
+    
+    #titulo__index {
+        font-size: 2em;
+    }
+    
 
 
      /* FIN INDEX RESPONSIVE */
